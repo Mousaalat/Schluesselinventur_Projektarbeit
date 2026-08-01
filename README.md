@@ -9,7 +9,7 @@ Buchbestand (Soll) mit dem tatsächlichen Bestand (Ist) abzugleichen.
 Da die Software erweitert wurde, um einzelne Schlüssel-Exemplare an 
 Schlüsselbunden zu erfassen, basierten die alten Inventur-Berichte 
 noch auf veralteter Logik und zeigten Schlüsselbunde nur als 
-Gesamtobjekt an – eine zuverlässige Inventur war so nicht mehr möglich [file:99].
+Gesamtobjekt an – eine zuverlässige Inventur war so nicht mehr möglich .
 
 ## Projektziel
 Neuentwicklung der zwei zentralen Reporting-Komponenten auf Basis der 
@@ -17,14 +17,14 @@ neuen n:1-Datenbankstruktur:
 - **Inventurliste (Laufzettel)** – löst Schlüsselbunde dynamisch in 
   Einzelschlüssel auf und zeigt Gravurnummern zur eindeutigen Identifikation
 - **Inventurdifferenzliste** – übersichtliche Darstellung aller Abweichungen 
-  (z. B. "Fehlt", "Gefunden") als Arbeitsgrundlage für den Organisator [file:99]
+  (z. B. "Fehlt", "Gefunden") als Arbeitsgrundlage für den Organisator 
 
 ## Meine Aufgaben
 - Vollständige Neuentwicklung der dynamischen Berichtsstrukturen
 - Implementierung der Datenbeschaffung über Datenbank-Views und Groovy
 - Schlüsselbund-Logik über Eltern-Kind-Zuordnung in Groovy-Skripten
 - Dynamische Spaltensteuerung je nach Inventurart (Person, Schrank, Depot)
-- Integration der Reports in die Java-Anwendung [file:100]
+- Integration der Reports in die Java-Anwendung.
 
 ## Eingesetzte Technologien
 - **JasperReports / JRXML** – Berichtslayout
